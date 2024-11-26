@@ -1,0 +1,126 @@
+/* General styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  .App {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    background-color: #fff;
+    min-height: 100vh;
+  }
+  
+  h1 {
+    font-size: 2.5rem;
+    color: #333;
+  }
+  
+  h2 {
+    font-size: 2rem;
+    color: #444;
+    margin-top: 20px;
+  }
+  
+  h3 {
+    font-size: 1.5rem;
+    color: #333;
+    margin-top: 30px;
+  }
+  
+  /* Profile section */
+  .profile-info {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 80%;
+    max-width: 600px;
+    margin: 20px 0;
+  }
+  
+  .profile-info p {
+    margin: 10px 0;
+    font-size: 1rem;
+  }
+  
+  .profile-info strong {
+    font-weight: bold;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    max-width: 400px;
+    margin-bottom: 20px;
+  }
+  
+  form label {
+    font-size: 1.1rem;
+    margin-bottom: 10px;
+  }
+  
+  form input {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 1rem;
+  }
+  
+  form button {
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    font-size: 1rem;
+    cursor: pointer;
+  }
+  
+  form button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Chart section */
+  .chart-container {
+    width: 80%;
+    max-width: 600px;
+    margin-top: 20px;
+  }
+  
+  .chart-container canvas {
+    width: 100% !important;
+    height: 400px !important;
+  }
+  
+  /* Responsive Design */
+  @media screen and (max-width: 768px) {
+    .profile-info {
+      width: 95%;
+    }
+  
+    form {
+      width: 80%;
+    }
+  
+    h1 {
+      font-size: 2rem;
+    }
+  
+    h2 {
+      font-size: 1.8rem;
+    }
+  
+    h3 {
+      font-size: 1.3rem;
+    }
+  }
+  
